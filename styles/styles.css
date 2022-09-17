@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .header{
     min-height: 100vh;
     width: 100%;
-    background-color: rgb(52, 49, 49); 
+    background-color: rgb(20, 20, 20); 
     position: relative;
 }
 nav{
@@ -41,13 +41,14 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #fff;
+    background: rgb(72, 239, 83);
     display: block;
     margin: auto;
     transition: 0.5s;
 }
 .nav-links ul li:hover::after{
     width: 100%;
+    
 }
 .text-box{
     width: 90%;
@@ -60,6 +61,7 @@ nav img{
 }
 .text-box h1{
     font-size: 60px;
+    padding: 1px;
 }
 .text-box p{
     margin: 10px 0 40px;
@@ -70,6 +72,8 @@ nav .fa{
     display: none;
     
 }
+
+
 
 @media(max-width: 700px){
     .text-box h1{
@@ -85,7 +89,7 @@ nav .fa{
         position: absolute;
         right: -200px;
         top: 0;
-        background: rgb(84, 81, 81);
+        background: rgb(26, 89, 31);
         height: 100vh;
         width: 200px;
         text-align: left;
@@ -98,8 +102,25 @@ nav .fa{
         font-size: 22px;
         margin: 10px;
         cursor: pointer;
+        
     }
     .nav-links ul{
         padding: 30px;
     }
+}
+.footer{
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.icons .fa{
+    color: #fff;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.icons .fa:hover{
+    color: rgb(72, 239, 83);
+    transition: 00.5s;
 }

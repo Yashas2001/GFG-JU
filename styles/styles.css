@@ -188,6 +188,6 @@ h2{
     size: 30px;
 }
 .icons .fa:hover{
-    color: rgb(41,141,70, 0.5);
+    color: #48ef48;
     transition: 00.5s;
 }

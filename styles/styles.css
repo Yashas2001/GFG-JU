@@ -21,7 +21,7 @@ nav img{
     width: 60px;
     border-radius: 40px;
     padding: 2%;
-    margin: auto;
+    margin: center;
 }
 .nav-links{
     flex: 1;

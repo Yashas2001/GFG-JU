@@ -191,3 +191,19 @@ h2{
     color: #48ef48;
     transition: 00.5s;
 }
+
+/*----Team Info----*/
+
+.text-box1{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    text-align: left;
+}
+.text-box1 h1{
+    font-size: 35px;
+    padding: 1px;
+    text-decoration: underline; 
+}

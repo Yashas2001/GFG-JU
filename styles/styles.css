@@ -313,6 +313,22 @@ img {
     font-size: 30px;
     font-weight: 600;
 }
+.event-card {
+    box-shadow: 0 4px 8px 0 rgb(0,0,0);
+    transition: 0.3s;
+    width: 80%;
+    border-radius: 10px;
+    margin: 10px;
+    
+  }
+.event-card:hover {
+    box-shadow: 0 8px 16px 0 #48ef48;
+  }
+  
+.event-container {
+    padding: 4px 10px;
+  }
+
 
 @media(max-width: 700px){
     .team-events h1{

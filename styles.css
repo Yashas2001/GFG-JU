@@ -4,19 +4,19 @@
     font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
-.header{
-    min-height: 60vh;
-    width: 100%;
-    position: relative;
-    background-image: url(/images/Banner.png);
-    background-position: center;
-    background-size: cover; 
-}
 
+.header{
+    background-color: rgb(41,141,70);
+    font-weight: 600;
+    font-size: 40px;
+    position: fixed;
+    width: 100%;;
+    
+}
 nav{
     display: flex;
     padding: 1%;
-    justify-content: space-between;
+    justify-content: center;
     
 }
 nav img{
@@ -27,7 +27,7 @@ nav img{
 }
 .nav-links{
     flex: 1;
-    text-align: right;
+    text-align: center;
 }
 .nav-links ul li{
     list-style: none;
@@ -45,7 +45,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: rgb(72, 239, 83, 0.6);;
+    background: #fff;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -80,11 +80,15 @@ nav .fa{
 
 @media(max-width: 700px){
     .header{
-        min-height: 12vh;
+        background-color: rgb(41,141,70);
+        font-weight: 600;
+        font-size: 30px;
+        position: fixed;
         width: 100%;
-        position: relative;
-        background-position: center;
-        background-size: contain; 
+    }
+    .banner-img{
+        padding-top: 10vh;
+        
     }
     .nav-links ul li{
         display: block;
@@ -105,6 +109,7 @@ nav .fa{
         display: block;
         font-size: 22px;
         margin: 10px;
+        
         cursor: pointer;
     }
     .nav-links ul{
@@ -197,6 +202,7 @@ h2{
     align-items: center;
     justify-content: space-between;
     margin: 30px 0;
+    margin-top: 20vh;
 }
 .team-members h1{
     font-size: 30px;
@@ -306,19 +312,23 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 0;
+    margin: auto;
     padding-left: 20px;
+    
+
 }
 .team-events h1{
     font-size: 30px;
     font-weight: 600;
+    margin-top: 15vh;
 }
 .event-card {
     box-shadow: 0 4px 8px 0 rgb(0,0,0);
     transition: 0.3s;
-    width: 80%;
+    width: 30%;
     border-radius: 10px;
-    margin: 10px;
+    margin: 50px;
+    display: inline-block;
     
   }
 .event-card:hover {
